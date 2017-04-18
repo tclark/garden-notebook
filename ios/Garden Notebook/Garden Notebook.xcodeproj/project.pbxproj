@@ -14,6 +14,7 @@
 		E28762021EA48B0F001F9E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28762011EA48B0F001F9E58 /* Assets.xcassets */; };
 		E28762051EA48B0F001F9E58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28762031EA48B0F001F9E58 /* LaunchScreen.storyboard */; };
 		E28762101EA48B0F001F9E58 /* Garden_NotebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287620F1EA48B0F001F9E58 /* Garden_NotebookTests.swift */; };
+		E2B29A161EA61B7B0048C518 /* PlantingNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B29A151EA61B7B0048C518 /* PlantingNote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		E287620B1EA48B0F001F9E58 /* Garden NotebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Garden NotebookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E287620F1EA48B0F001F9E58 /* Garden_NotebookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garden_NotebookTests.swift; sourceTree = "<group>"; };
 		E28762111EA48B0F001F9E58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B29A151EA61B7B0048C518 /* PlantingNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantingNote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E28761FA1EA48B0F001F9E58 /* NotesViewController.swift */,
 				E28761FC1EA48B0F001F9E58 /* MapViewController.swift */,
 				E28761FE1EA48B0F001F9E58 /* Main.storyboard */,
+				E2B29A151EA61B7B0048C518 /* PlantingNote.swift */,
 				E28762011EA48B0F001F9E58 /* Assets.xcassets */,
 				E28762031EA48B0F001F9E58 /* LaunchScreen.storyboard */,
 				E28762061EA48B0F001F9E58 /* Info.plist */,
@@ -204,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B29A161EA61B7B0048C518 /* PlantingNote.swift in Sources */,
 				E28761FD1EA48B0F001F9E58 /* MapViewController.swift in Sources */,
 				E28761F91EA48B0F001F9E58 /* AppDelegate.swift in Sources */,
 				E28761FB1EA48B0F001F9E58 /* NotesViewController.swift in Sources */,
@@ -418,6 +422,7 @@
 				E28762161EA48B0F001F9E58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E28762171EA48B0F001F9E58 /* Build configuration list for PBXNativeTarget "Garden NotebookTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				E28762191EA48B0F001F9E58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
